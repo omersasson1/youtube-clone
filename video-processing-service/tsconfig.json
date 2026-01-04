@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // Specify the JavaScript version for the output files (ES6 supports arrows, classes, etc.)
+    "target": "es6",
+    
+    // Use CommonJS as the module system, which is required for Node.js and Firebase Functions
+    "module": "commonjs",
+    
+    // Redirect output to the 'dist' folder where the compiled JavaScript will live
+    "outDir": "./dist",
+    
+    // Specify the root folder where your TypeScript source files are located
+    "rootDir": "./src",
+    
+    // Enable all strict type-checking options to catch bugs early (highly recommended for CS students)
+    "strict": true,
+    
+    // Emit additional JavaScript to ease support for importing CommonJS modules
+    "esModuleInterop": true
+  },
+  
+  // Tell the compiler which files to include in the compilation process
+  "include": ["src/**/*.ts"],
+  
+  // Tell the compiler to ignore everything inside the node_modules folder
+  "exclude": ["node_modules"]
+}
