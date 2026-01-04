@@ -1,0 +1,6 @@
+express - library that we use to build servers easly. 
+type script - a wize version of javascript that adds types like int.
+dependencies vs dev-dependencies -> dependencies needed for ever and dev only when we build.
+node.js - engine that run code files, he looks in the json files on the mata data on which code.
+
+
