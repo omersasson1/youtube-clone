@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.left {
+    flex: 1;  /* Takes equal space */
+}
+
+.center {
+    flex: 1;
+    display: flex;
+    justify-content: center;  /* Centers content inside */
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;  /* Pushes content to right */
+}
